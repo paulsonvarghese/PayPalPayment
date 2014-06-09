@@ -20,6 +20,8 @@
 {
     transactionArray=[[NSMutableArray alloc]init];
     [super viewDidLoad];
+    
+    //add client id for sandbox
     [PayPalMobile initializeWithClientIdsForEnvironments:@{                                                       PayPalEnvironmentSandbox : @"Ac2QYxASDF36XQSmab8Y2YVHu6DHsGVkf3VcKgI6U8FkqMUS1TgcobpM0GQw"}];
     
     
